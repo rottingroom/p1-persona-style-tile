@@ -1,21 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Henny+Penny);
+
 /***************/
 /* YOUR STYLES */
 /***************/
 
 /* Color Palette */
-
+.color-1 {
+    background: red;
+}
+.color-2 {
+    background: green;
+}
+.color-3 {
+    background: blue;
+}
+.color-4 {
+    background: yellow;
+}
+.color-5 {
+    background: purple;
+}
 
 /* Textures or Patterns*/
-
+.pattern-1 {
+    background: url("http://www.callcenter-usa.com/wp-content/uploads/2015/10/rijGjpLbT.png") no-repeat;
+    background-size: 100%;
+}
+.pattern-2 {
+    background: url("https://upload.wikimedia.org/wikipedia/en/d/d3/USA-states.PNG") no-repeat;
+    background-size: 100%;
+}
+.pattern-3 {
+    background: url("https://images7.alphacoders.com/687/687665.jpg") no-repeat;
+    background-size: 100%;
+}
+.pattern-4 {
+    background: url("https://www.unwomen-usnc.org/files/usa-map.png") no-repeat;
+    background-size: 100%;
+}
+.pattern-5 {
+    background: url("https://openclipart.org/image/2400px/svg_to_png/202446/USA-Map-Silhouette.png") no-repeat;
+    background-size: 100%;
+}
 
 /* Imagery */
 
 
 /* Icons */
-
+.icon-1 {
+    border: none;
+}
+.icon-2 {
+    
+}
+.icon-3 {
+    
+}
+.icon-4 {
+    
+}
+.icon-5 {
+    
+}
 
 /* Navigation */
+nav li {
+    list-style-type: none;
+    
+}
+nav a:link {
+    color: blue;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    color: indianred;
+}
 
+button {
+    padding: 1em;
+    background: blue;
+    color: white;
+    border: red solid 5px;
+    border-radius: 4px;
+}
 
 /* Typography */
 
+h1 {
+    font-family: 'Henny Penny', cursive;
+}
+
+p {
+    
+}
