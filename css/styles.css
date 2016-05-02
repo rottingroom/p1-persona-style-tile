@@ -1,49 +1,57 @@
-@import url(https://fonts.googleapis.com/css?family=Henny+Penny);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 /***************/
 /* YOUR STYLES */
 /***************/
 
+#persona {
+    width: 600px;
+}
+
 /* Color Palette */
 .color-1 {
-    background: red;
+    background: #0F5C8C;
 }
 .color-2 {
-    background: green;
+    background: #11698C;
 }
 .color-3 {
-    background: blue;
+    background: #1F788C;
 }
 .color-4 {
-    background: yellow;
+    background: #F2A391;
 }
 .color-5 {
-    background: purple;
+    background: #D9593D;
 }
 
 /* Textures or Patterns*/
 .pattern-1 {
-    background: url("http://www.callcenter-usa.com/wp-content/uploads/2015/10/rijGjpLbT.png") no-repeat;
-    background-size: 100%;
+    background: url("http://www.textureking.com/content/img/stock/big/DSC_4438.JPG") no-repeat;
+    background-size: cover;
 }
 .pattern-2 {
-    background: url("https://upload.wikimedia.org/wikipedia/en/d/d3/USA-states.PNG") no-repeat;
-    background-size: 100%;
+    background: url("http://img07.deviantart.net/5594/i/2012/118/8/3/textures_49_by_sophiefzy-d4xtjbw.jpg") no-repeat;
+    background-size: cover;
 }
 .pattern-3 {
-    background: url("https://images7.alphacoders.com/687/687665.jpg") no-repeat;
-    background-size: 100%;
+    background: url("http://bgfons.com/upload/pattern_texture1171.jpg") no-repeat;
+    background-size: cover;
 }
 .pattern-4 {
-    background: url("https://www.unwomen-usnc.org/files/usa-map.png") no-repeat;
-    background-size: 100%;
+    background: url("http://img07.deviantart.net/45d0/i/2009/203/7/3/metal_bolt_texture_by_fantasystock.jpg") no-repeat;
+    background-size: cover;
 }
 .pattern-5 {
-    background: url("https://openclipart.org/image/2400px/svg_to_png/202446/USA-Map-Silhouette.png") no-repeat;
-    background-size: 100%;
+    background: url("https://s-media-cache-ak0.pinimg.com/736x/c3/cb/9e/c3cb9ee8cf711b5ee86e82a3e2dc183c.jpg") no-repeat;
+    background-size: cover;
 }
 
 /* Imagery */
+.imagery-1 {
+    width: auto;
+    height: auto;
+}
 
 
 /* Icons */
@@ -51,47 +59,67 @@
     border: none;
 }
 .icon-2 {
-    
+    border: none;
 }
 .icon-3 {
-    
+    border: none;
 }
 .icon-4 {
-    
+    border: none;
 }
 .icon-5 {
-    
+    border: none;    
 }
 
 /* Navigation */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
 nav li {
     list-style-type: none;
-    
 }
 nav a:link {
-    color: blue;
+    color: #1F788C;
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
 }
 nav a:hover {
-    color: indianred;
+    color: #1F788C;
+}
+
+a:link {
+    text-decoration: none;
+    color: #1F788C;
 }
 
 button {
     padding: 1em;
-    background: blue;
+    border: 0;
+    background: #1F788C;
     color: white;
-    border: red solid 5px;
     border-radius: 4px;
+    margin: 0;
 }
 
 /* Typography */
 
 h1 {
-    font-family: 'Henny Penny', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #D9593D;
 }
 
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #D9593D;
+}
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #888;
+}
 p {
-    
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #999;
 }
