@@ -5,7 +5,7 @@
 /***************/
 
 #persona {
-    width: 600px;
+/*    width: 600px;*/
 }
 
 /* Color Palette */
@@ -48,10 +48,6 @@
 }
 
 /* Imagery */
-.imagery-1 {
-    width: auto;
-    height: auto;
-}
 
 
 /* Icons */
